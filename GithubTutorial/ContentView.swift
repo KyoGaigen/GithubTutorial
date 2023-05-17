@@ -17,6 +17,16 @@ struct ContentView: View {
             Text("Hello, Github")
             Text("Hello, Github")
             Text("Hello, Github")
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            
             
         }
         .padding()
